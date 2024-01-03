@@ -1,0 +1,38 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+  }
+  
+  #moving-button {
+    padding: 10px 20px;
+    border: 2px solid #044725;
+    background-color: #15dd30;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 20px
+  }
+  
+  #moving-button:hover {
+    background-color: #555;
+    color: #fff;
+  }
+
+  #static-button {
+    padding: 10px 20px;
+    border: 2px solid #044725;
+    background-color: #15dd30;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 20px;
+  }
+  
+  #static-button:hover {
+    background-color: #074311;
+    color: #fff;
+  }

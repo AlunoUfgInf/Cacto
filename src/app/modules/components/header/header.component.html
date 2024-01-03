@@ -1,0 +1,26 @@
+<header>
+
+    <button id="cacto" type="button">
+        <img src="./assets/cacto2.png" alt="Logo de Cacto" [routerLink] = "['']"/>
+    </button>
+
+    <ul>
+        <li>
+            <a [routerLink] = "['']">Home</a>
+        </li>
+
+        <li>
+            <a [routerLink] = "['outros-cactos']">Outros Cactos</a>
+        </li>
+
+        <li>
+            <button id="tema" (click)="toggle()">
+                <img 
+                    src="./assets/{{ item }}.svg" 
+                    alt="Clique aqui e mude o tema do site"
+                />
+            </button>
+        </li>
+    </ul>
+</header>
+
